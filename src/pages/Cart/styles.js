@@ -86,7 +86,7 @@ export const ProductTable = styled.table`
 
         button {
           justify-content: center;
-          background: #fff;
+          background: #FFF;
         }
 
         input {
@@ -99,8 +99,11 @@ export const ProductTable = styled.table`
         }
       }
 
-      svg {
-        cursor: pointer;
+      button {  
+        background: transparent;
+        svg {
+          cursor: pointer;
+        }
       }
     }
   }
